@@ -1,0 +1,1 @@
+python main.py --conf_path=./cifar10_resnet20.hocon --id=01 --qw 4 --qa 4
