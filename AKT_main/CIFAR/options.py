@@ -79,7 +79,7 @@ class Option(NetOption):
 
 		
 	def set_save_path(self):
-		self.save_path = self.save_path + "log_{}_bs{:d}_lr{:.4f}_TELCNN_baseline_opt{}_qw{:d}_qa{:d}_epoch{}_{}/".format(
+		self.save_path = self.save_path + "log_{}_bs{:d}_lr{:.4f}_opt{}_qw{:d}_qa{:d}_epoch{}_{}/".format(
 			self.dataset, self.batchSize, self.lr, self.opt_type, self.qw, self.qa,
 			self.nEpochs, self.experimentID)
 
