@@ -1,5 +1,13 @@
+<div align="center">
+
 # Advanced Knowledge Transfer: Refined Feature Distillation for Zero-Shot Quantization in Edge Computing
-This repository is the official code for the paper "Advanced Knowledge Transfer: Refined Feature Distillation for Zero-Shot Quantization in Edge Computing" by Inpyo Hong, Youngwan Jo, Hyojeong Lee, Sunghyun Ahn, and Sanghyun Park.
+
+**Inpyo Hong**, **Youngwan Jo**, **Hyojeong Lee**, **Sunghyun Ahn**, and **Sanghyun Park**
+
+[![ACM SAC](https://img.shields.io/badge/ACM%20SAC-2025-005596)](https://dl.acm.org/doi/abs/10.1145/3672608.3707816)
+
+</div>
+
 
 ## Abstract
 We introduce AKT (Advanced Knowledge Transfer), a novel method to enhance the training ability of low-bit quantized (Q) models in the field of zero-shot quantization (ZSQ). Existing research in ZSQ has focused on generating high-quality data from full-precision (FP) models. However, these approaches struggle with reduced learning ability in low-bit quantization due to its limited information capacity. To overcome this limitation, we propose an effective training strategy compared to data generation. Particularly, we analyzed that refining feature maps in the feature distillation process is an effective way to transfer knowledge to the Q model. Based on this analysis, AKT efficiently transfers core information from the FP model to the Q model. AKT is the first approach to utilize both spatial and channel attention information in feature distillation in ZSQ. Our method addresses the fundamental gradient exploding problem in low-bit Q models. Experiments on CIFAR-10 and CIFAR-100 datasets demonstrated the effectiveness of the AKT. Our method led to significant performance enhancement in existing generative models. Notably, AKT achieved significant accuracy improvements in low-bit Q models, achieving state-of-the-art in the 3-bit and 5-bit scenarios on CIFAR-10. The code is available at https://github.com/Inpyo-Hong/AKT-Advanced-knowledge-Transfer.
